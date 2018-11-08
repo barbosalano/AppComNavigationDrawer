@@ -7,6 +7,7 @@ import android.view.View;
 import com.example.barbosa.appconsultoria.R;
 
 import mehdi.sakout.aboutpage.AboutPage;
+import mehdi.sakout.aboutpage.Element;
 
 public class SobreActivity extends AppCompatActivity {
 
@@ -14,6 +15,7 @@ public class SobreActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
        // setContentView(R.layout.activity_sobre);
+
 
         String descricao = "Começando com o primeiro item, é o ato ou efeito de dar consulta ou conselho. Especificando melhor, consultoria é uma prestação de serviço que visa auxiliar alguém (ou uma empresa) em determinada situação. \n \n "  + "A segunda definição indica uma característica essencial para qualquer bom serviço de consultoria: um consultor deve tratar de assuntos técnicos de sua especialidade. Em outras palavras, consultoria é um serviço especializado em determinado assunto.";
 
@@ -40,4 +42,6 @@ public class SobreActivity extends AppCompatActivity {
 
         setContentView(sobre);
     }
+
+
 }
